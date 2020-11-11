@@ -1,0 +1,108 @@
+:root {
+  /*see võib olla suvaline tekst*/
+  --variable: 50vw;
+}
+* {
+  box-sizing: border-box;
+}
+
+body {
+margin: 0;
+padding: 0;
+  background-color: #F2BFAC;
+  /* background-color: #ffffff */
+}
+.heading1  {
+  /* font-size: 30px */
+  font-size: 2em;
+}
+.button {
+  position: relative;
+  display: block;
+  padding: 30px 40px;
+  width: 154px;
+  height: 40px;
+  background: #FFB359;
+  border-radius: 20px;
+}
+.button a {
+  /* Slogan */
+  margin: 0 auto;
+  display: block;
+  font-family: Courier New;
+  font-style: normal;
+  text-decoration: none;
+  font-weight: normal;
+  font-size: 30px;
+  line-height: 40px;
+/* or 133% */
+  align-items: center;
+  text-align: center;
+  text-transform: uppercase
+  color: #000000;
+}
+#heading2 {
+  font-size: 1rem;
+}
+p {
+  color: #630505;
+}
+header {
+  position: sticky;
+  top: 0;
+}
+span {
+  background: white;
+  display: block;
+  width: var(--variable);
+}
+ul {
+  list-style-type: none;
+  padding: 0;
+  margin: 0;
+}
+section {
+  position: relative;
+}
+.pilt {
+  /* width: 100%; */
+/* margin: top, right, bottom, left; */
+margin: 10vw;
+padding: 5vw;
+width: 80vw;
+background-color: white;
+border: 2px solid black;
+}
+/* .tooltip {
+background: rgba(0, 0, 0, 0.5);
+color: white;
+}
+.fixed {
+  position: fixed;
+}
+.bottom-left {
+  left: 50px;
+  bottom: 50px;
+}
+.esimene {
+  display: block;
+  font-size: 2em;
+  /* background-size: cover; */
+  background-size: contain;
+  background-repeat: no-repeat;
+  background-color: red;
+  background-image: url(pilt.jpg);
+  background-position: center;
+} */
+#pilt1 {
+  position: absolute;
+  top: 0px;
+  right: 0;
+  margin: 0;
+  width: 40vw;
+}
+
+#pilt2 {
+position: sticky;
+top: 0;
+}
